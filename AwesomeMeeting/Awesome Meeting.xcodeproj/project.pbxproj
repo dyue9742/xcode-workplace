@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E1488BE24C0E2800077E9A4 /* ColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1488BD24C0E2800077E9A4 /* ColorSet.swift */; };
+		5E4B7ECD24DB48480090B6AB /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4B7ECC24DB48480090B6AB /* HomePage.swift */; };
+		5E4B7ECF24DB487D0090B6AB /* MeetingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4B7ECE24DB487D0090B6AB /* MeetingList.swift */; };
+		5E4B7ED124DB48A50090B6AB /* HaveMeetings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4B7ED024DB48A50090B6AB /* HaveMeetings.swift */; };
+		5E4B7ED324DB48E20090B6AB /* MeetingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4B7ED224DB48E20090B6AB /* MeetingDetail.swift */; };
+		5E4B7ED524DB49070090B6AB /* CreateMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4B7ED424DB49070090B6AB /* CreateMeeting.swift */; };
+		5E4B7ED724DB493C0090B6AB /* OtherOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4B7ED624DB493C0090B6AB /* OtherOptions.swift */; };
+		5E6CB93324D2FCD2001F22B6 /* MeetingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6CB93224D2FCD2001F22B6 /* MeetingStatus.swift */; };
+		5E6D105824DDAB1E004CFD47 /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D105724DDAB1E004CFD47 /* Speech.swift */; };
+		5E6FB30524F3D55D000AA1D4 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6FB30424F3D55D000AA1D4 /* CustomViews.swift */; };
+		5E7CD13024CC38BB00B21054 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7CD12F24CC38BB00B21054 /* Extensions.swift */; };
+		5EBDB3FB24B90A1F00FDBE1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDB3FA24B90A1F00FDBE1E /* AppDelegate.swift */; };
+		5EBDB3FD24B90A1F00FDBE1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDB3FC24B90A1F00FDBE1E /* SceneDelegate.swift */; };
+		5EBDB40424B90A2100FDBE1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDB40324B90A2100FDBE1E /* Assets.xcassets */; };
+		5EBDB40724B90A2100FDBE1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDB40624B90A2100FDBE1E /* Preview Assets.xcassets */; };
+		5EBDB40A24B90A2100FDBE1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBDB40824B90A2100FDBE1E /* LaunchScreen.storyboard */; };
+		5EBDB41324B90DC700FDBE1E /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDB41224B90DC700FDBE1E /* Meeting.swift */; };
+		5EBF164524D135C4004EDF4A /* Awesome_Meeting.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EBDB3FE24B90A1F00FDBE1E /* Awesome_Meeting.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E1488BD24C0E2800077E9A4 /* ColorSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSet.swift; sourceTree = "<group>"; };
+		5E4B7ECC24DB48480090B6AB /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		5E4B7ECE24DB487D0090B6AB /* MeetingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingList.swift; sourceTree = "<group>"; };
+		5E4B7ED024DB48A50090B6AB /* HaveMeetings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaveMeetings.swift; sourceTree = "<group>"; };
+		5E4B7ED224DB48E20090B6AB /* MeetingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingDetail.swift; sourceTree = "<group>"; };
+		5E4B7ED424DB49070090B6AB /* CreateMeeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMeeting.swift; sourceTree = "<group>"; };
+		5E4B7ED624DB493C0090B6AB /* OtherOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherOptions.swift; sourceTree = "<group>"; };
+		5E6CB93224D2FCD2001F22B6 /* MeetingStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingStatus.swift; sourceTree = "<group>"; };
+		5E6D105724DDAB1E004CFD47 /* Speech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
+		5E6FB30424F3D55D000AA1D4 /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
+		5E7CD12F24CC38BB00B21054 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5EBDB3F724B90A1F00FDBE1E /* Awesome Meeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awesome Meeting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBDB3FA24B90A1F00FDBE1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EBDB3FC24B90A1F00FDBE1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5EBDB3FF24B90A1F00FDBE1E /* Awesome_Meeting.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Awesome_Meeting.xcdatamodel; sourceTree = "<group>"; };
+		5EBDB40324B90A2100FDBE1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EBDB40624B90A2100FDBE1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EBDB40924B90A2100FDBE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EBDB40B24B90A2100FDBE1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EBDB41224B90DC700FDBE1E /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EBDB3F424B90A1F00FDBE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E1488BC24C0E26F0077E9A4 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				5E1488BD24C0E2800077E9A4 /* ColorSet.swift */,
+				5E7CD12F24CC38BB00B21054 /* Extensions.swift */,
+				5E6FB30424F3D55D000AA1D4 /* CustomViews.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		5E2E396224D1329400BF0258 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5EBDB41224B90DC700FDBE1E /* Meeting.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5E4B7ECB24DB482D0090B6AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E4B7ECC24DB48480090B6AB /* HomePage.swift */,
+				5E4B7ECE24DB487D0090B6AB /* MeetingList.swift */,
+				5E4B7ED024DB48A50090B6AB /* HaveMeetings.swift */,
+				5E4B7ED224DB48E20090B6AB /* MeetingDetail.swift */,
+				5E4B7ED424DB49070090B6AB /* CreateMeeting.swift */,
+				5E4B7ED624DB493C0090B6AB /* OtherOptions.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E6D105424DD94DC004CFD47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E6CB93224D2FCD2001F22B6 /* MeetingStatus.swift */,
+				5E6D105724DDAB1E004CFD47 /* Speech.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EBDB3EE24B90A1F00FDBE1E = {
+			isa = PBXGroup;
+			children = (
+				5EBDB3F924B90A1F00FDBE1E /* Awesome Meeting */,
+				5EBDB3F824B90A1F00FDBE1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EBDB3F824B90A1F00FDBE1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EBDB3F724B90A1F00FDBE1E /* Awesome Meeting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EBDB3F924B90A1F00FDBE1E /* Awesome Meeting */ = {
+			isa = PBXGroup;
+			children = (
+				5EBDB3FE24B90A1F00FDBE1E /* Awesome_Meeting.xcdatamodeld */,
+				5E2E396224D1329400BF0258 /* Entity */,
+				5E1488BC24C0E26F0077E9A4 /* General */,
+				5E6D105424DD94DC004CFD47 /* Model */,
+				5E4B7ECB24DB482D0090B6AB /* View */,
+				5EBDB3FA24B90A1F00FDBE1E /* AppDelegate.swift */,
+				5EBDB3FC24B90A1F00FDBE1E /* SceneDelegate.swift */,
+				5EBDB40324B90A2100FDBE1E /* Assets.xcassets */,
+				5EBDB40824B90A2100FDBE1E /* LaunchScreen.storyboard */,
+				5EBDB40B24B90A2100FDBE1E /* Info.plist */,
+				5EBDB40524B90A2100FDBE1E /* Preview Content */,
+			);
+			path = "Awesome Meeting";
+			sourceTree = "<group>";
+		};
+		5EBDB40524B90A2100FDBE1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5EBDB40624B90A2100FDBE1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EBDB3F624B90A1F00FDBE1E /* Awesome Meeting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EBDB40E24B90A2100FDBE1E /* Build configuration list for PBXNativeTarget "Awesome Meeting" */;
+			buildPhases = (
+				5EBDB3F324B90A1F00FDBE1E /* Sources */,
+				5EBDB3F424B90A1F00FDBE1E /* Frameworks */,
+				5EBDB3F524B90A1F00FDBE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Awesome Meeting";
+			productName = "Awesome Meeting";
+			productReference = 5EBDB3F724B90A1F00FDBE1E /* Awesome Meeting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EBDB3EF24B90A1F00FDBE1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Yue Dai";
+				TargetAttributes = {
+					5EBDB3F624B90A1F00FDBE1E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 5EBDB3F224B90A1F00FDBE1E /* Build configuration list for PBXProject "Awesome Meeting" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EBDB3EE24B90A1F00FDBE1E;
+			productRefGroup = 5EBDB3F824B90A1F00FDBE1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EBDB3F624B90A1F00FDBE1E /* Awesome Meeting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EBDB3F524B90A1F00FDBE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBDB40A24B90A2100FDBE1E /* LaunchScreen.storyboard in Resources */,
+				5EBDB40724B90A2100FDBE1E /* Preview Assets.xcassets in Resources */,
+				5EBDB40424B90A2100FDBE1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EBDB3F324B90A1F00FDBE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4B7ED724DB493C0090B6AB /* OtherOptions.swift in Sources */,
+				5EBF164524D135C4004EDF4A /* Awesome_Meeting.xcdatamodeld in Sources */,
+				5E6CB93324D2FCD2001F22B6 /* MeetingStatus.swift in Sources */,
+				5E6D105824DDAB1E004CFD47 /* Speech.swift in Sources */,
+				5EBDB41324B90DC700FDBE1E /* Meeting.swift in Sources */,
+				5E4B7ED524DB49070090B6AB /* CreateMeeting.swift in Sources */,
+				5EBDB3FB24B90A1F00FDBE1E /* AppDelegate.swift in Sources */,
+				5EBDB3FD24B90A1F00FDBE1E /* SceneDelegate.swift in Sources */,
+				5E4B7ECD24DB48480090B6AB /* HomePage.swift in Sources */,
+				5E4B7ECF24DB487D0090B6AB /* MeetingList.swift in Sources */,
+				5E7CD13024CC38BB00B21054 /* Extensions.swift in Sources */,
+				5E1488BE24C0E2800077E9A4 /* ColorSet.swift in Sources */,
+				5E6FB30524F3D55D000AA1D4 /* CustomViews.swift in Sources */,
+				5E4B7ED124DB48A50090B6AB /* HaveMeetings.swift in Sources */,
+				5E4B7ED324DB48E20090B6AB /* MeetingDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EBDB40824B90A2100FDBE1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EBDB40924B90A2100FDBE1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EBDB40C24B90A2100FDBE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5EBDB40D24B90A2100FDBE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EBDB40F24B90A2100FDBE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Awesome Meeting/Preview Content\"";
+				DEVELOPMENT_TEAM = HH4K99JATZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Awesome Meeting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "democritus-PDCT.Awesome-Meeting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EBDB41024B90A2100FDBE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Awesome Meeting/Preview Content\"";
+				DEVELOPMENT_TEAM = HH4K99JATZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Awesome Meeting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "democritus-PDCT.Awesome-Meeting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EBDB3F224B90A1F00FDBE1E /* Build configuration list for PBXProject "Awesome Meeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBDB40C24B90A2100FDBE1E /* Debug */,
+				5EBDB40D24B90A2100FDBE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EBDB40E24B90A2100FDBE1E /* Build configuration list for PBXNativeTarget "Awesome Meeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBDB40F24B90A2100FDBE1E /* Debug */,
+				5EBDB41024B90A2100FDBE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5EBDB3FE24B90A1F00FDBE1E /* Awesome_Meeting.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5EBDB3FF24B90A1F00FDBE1E /* Awesome_Meeting.xcdatamodel */,
+			);
+			currentVersion = 5EBDB3FF24B90A1F00FDBE1E /* Awesome_Meeting.xcdatamodel */;
+			path = Awesome_Meeting.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5EBDB3EF24B90A1F00FDBE1E /* Project object */;
+}
